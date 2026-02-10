@@ -200,20 +200,19 @@ body {
 .about-text p {
     color: aliceblue;
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 1.8;
     margin-bottom: 2rem;
     padding: 15px 28px;
-    line-height: 1.8;
-    margin-left: 10px;
+    text-algin: left;
 }
 
 
 .about-text .btn-box {
    
-    margin: 0px 43%;
+    display: flex;
     justify-content: center;
-    padding: 15px 28px;
-    display: grid;
+    margin-top:20px;
+    padding:15px 28px;
     border-radius: 50px;
 }
 
@@ -1794,5 +1793,6 @@ html {
     }
 
 }
+
 
 
